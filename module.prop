@@ -1,0 +1,6 @@
+id=refresh_rate_module
+name=Refresh Rate Module
+version=1.0
+versionCode=1
+author=YourName
+description=Change system refresh rate config.
