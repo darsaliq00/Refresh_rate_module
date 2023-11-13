@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!-- format: mode_auto-mode_90-mode_60-mode_120
+     value: 0(unspecified), 1(90Hz), 2(60Hz), 3(120Hz)
+     rateId="3-0-2-3" the preferred refresh rate id per setting mode
+     setting mode: auto  ,90hz     ,60hz  ,120hz
+     refresh rate: 120hz ,default,  60hz  ,120hz
+-->
+<refresh_rate_config version="20220920">
+
+<!-- cts activity -->
+  <item package="android.view.cts" activity="android.view.cts/.DisplayRefreshRateCtsActivity" rateId="2-2-2-2" appreqfirst="true" /> <!--CTS测试fail-->
+  <item package="android.view.cts" activity="android.view.cts/.surfacevalidator.CapturedActivity" rateId="2-2-2-2" />  <!--CTS测试fail-->
+
+<!-- other activity -->
+  <item package="com.coloros.video" activity="com.coloros.video/com.oplus.video.mycenter.MoviePlayerActivity" disableViewOverride="true" rateId="2-2-2-2" />  <!--文件管理器播放视频-->
+  <item package="com.homelink.android" activity="com.homelink.android/com.lianjia.common.vr.webview.VrWebviewActivity" disableViewOverride="true" rateId="2-2-2-2" />  <!--链家VR-->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/cooperation.qzone.QzoneFeedsPluginProxyActivity" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/dov.com.tencent.biz.qqstory.takevideo.EditVideoActivity" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/cooperation.qzone.QzoneGPUPluginProxyActivity" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.mm" activity="com.tencent.mm/.plugin.recordvideo.activity.MMRecordUI" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="tv.danmaku.bili" activity="tv.danmaku.bili/.ui.author.AuthorSpaceActivity" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="tv.danmaku.bili" activity="tv.danmaku.bili/com.bilibili.app.authorspace.ui.AuthorSpaceActivity" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="tv.danmaku.bili" activity="tv.danmaku.bili/.MainActivityV2" disableViewOverride="true" rateId="3-3-2-3" />
+
+<!-- thirdpart app-->
+<!--Start High rate(120/60) oversea's app-->
+<item package="com.pubg.imobile" disableViewOverride="true" ateId="3-3-2-3" />
+  <item package="com.nianticlabs.pokemongo" disableViewOverride="true" ateId="3-3-2-3" />
+  <item package="com.android.launcher" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.tmgp.speedmobile" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.af" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.netease.lztg.nearme.gamecenter" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.netease.lztg" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.netease.lztg.aligames" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.netease.lztg.eyou" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="org.mozilla.firefox" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.android.chrome" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="cn.soulapp.android" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.sina.weibo" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="app.buzz.share" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.pinterest" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.snapchat.android" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.snapchat.android" activity="com.snapchat.android/com.snap.mushroom.MainActivity"disableViewOverride="true" rateId="3-1-2-2" />
+  <item package="com.zl.fqbao" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.android.browser" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.UCMobile" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.opera.browser" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.nike.ntc" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.chrome.beta" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.taobao.idlefish" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.netease.mc.nearme.gamecenter" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.netease.x19" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.taobao.taobao" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.tim" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.KiHan" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.tmgp.KiHan" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.facebook.katana" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.instagram.android" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.instagram.android" activity="com.instagram.android/com.instagram.mainactivity.MainActivity" disableViewOverride="true" rateId="3-1-2-2" />
+  <item package="com.coloros.alarmclock" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.nearme.browser" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.qqpim" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.sogou.novel" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.app.shanghai.metro" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.tmgp.cf" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.alimama.moon" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.jxedt" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.moji.mjweather" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.ig" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.coloros.weather2" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.netease.blqx.nearme.gamecenter" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.hsh.cqyzs.nearme.gamecenter" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.yunbu.rehtona.nearme.gamecenter" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.denachina.g13002010.nearme.gamecenter" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.Lilith.Abi.nearme.gamecenter" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.netease.blqx" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.m37.dldl.aligames" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.yunbu.rehtona.uc" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.denachina.g13002010.aligames" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.lilith.abi.uc" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.volvapps.ef5.x.nearme.gamecenter" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.tmgp.ef5" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.palmpi.hcollege.nearme.gamecenter" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.tmgp.hqxy" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.palmpi.hcollege.uc" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.android.dreams.basic" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.superevilmegacorp.game" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.superevilmegacorp.game.nearme.gamecenter" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.imangi.templerun2" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.xingin.xhs" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.tmgp.pubgmhd" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.pubg.imobile" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.baidu.tieba" disableViewOverride="true" rateId="3-3-2-3" />
+  <item package="com.tencent.tmgp.sgame" disableViewOverride="true" rateId="3-3-2-3" />  <!--王者荣耀-->
+
+  <item package="com.youku.phone" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.netflix.mediacliente" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.amazon.avod.thirdpartyclient" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.hunantv.imgo.activity" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.skype.raider" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.ovital.ovitalMap" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.ss.android.ugc.aweme" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.cainiao.cs" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.kwai.videoeditor" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.jx.cmcc.ict.ibelieve" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="org.xbmc.kodi" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.nexstreaming.app.kinemasterfree" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.microsoft.office.onenote" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.smile.gifmaker" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.google.android.youtube" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.leku.hmsq" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.android.bankabc" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.tencent.qt.sns" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.shuqi.controller" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.pingan.lifeinsurance" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.taobao.qianniu" disableViewOverride="true" rateId="2-2-2-2" />
+  <item package="com.tencent.mobileqq"  rateId="2-1-2-3" disableViewOverride="true"  />  <!-- QQ -->
+  <item package="com.tencent.mm" rateId="2-1-2-3" disableViewOverride="true" />  <!-- 微信 bugid: 2895068,2896023-->
+  <!-- 录屏降低帧率到 60hz -->
+  <record package="com.oplus.cast" />  <!--投屏时候保持系统帧率在60hz-->
+  <record package="com.heytap.cast" /> <!--投屏时候保持系统帧率在60hz-->  
+</refresh_rate_config>
